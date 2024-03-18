@@ -17,3 +17,18 @@ h1 + p {
 p span {
     color: red;
 }
+.box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:indigo;
+    transform: rotate(0.8turn);
+}
+/*body {
+    background-color: aqua;
+}
+@media (min-width: 400px) {
+    body {
+        background-color: antiquewhite;
+    }
+}*/
