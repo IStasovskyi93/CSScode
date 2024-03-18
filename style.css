@@ -1,34 +1,25 @@
 h1 {
-    color: red;
+    color: hotpink;
+    border-bottom: 10px dotted purple;
 }
-p, li {
-    color: green;
+h3 {
+    font-style: italic;
 }
 ul {
-    list-style-type: upper-roman ;
+    /*list-style-type: circle;*/
+    border: 5px solid purple;
+    background-color: #eeeeee;
+    padding: 20px 10px;
 }
-.special {
-    color: orange;
-    font-weight: 700;
+ul span {
+    color: green;
 }
-h1 + p {
-    background-color: bisque;
+ul a {
+    color: blue;
 }
-p span {
-    color: red;
+ul a:hover {
+    color: green;
 }
-.box {
-    margin: 30px;
-    width: 100px;
-    height: 100px;
-    background-color:indigo;
-    transform: rotate(0.8turn);
+h2 {
+    color: gray;
 }
-/*body {
-    background-color: aqua;
-}
-@media (min-width: 400px) {
-    body {
-        background-color: antiquewhite;
-    }
-}*/
