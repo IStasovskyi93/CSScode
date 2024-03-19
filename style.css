@@ -22,4 +22,9 @@ ul a:hover {
 }
 h2 {
     color: gray;
+    border: 2px solid grey;
+
+}
+.url:any-link {
+    color: chartreuse;
 }
