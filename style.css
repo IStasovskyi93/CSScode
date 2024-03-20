@@ -28,3 +28,12 @@ h2 {
 .url:any-link {
     color: chartreuse;
 }
+.img {
+    background-image: url(../vidfoto-html/images/red-panda-1200px.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*img {
+    width: 800;
+    height: 400px;
+}*/
