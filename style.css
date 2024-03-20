@@ -29,9 +29,12 @@ h2 {
     color: chartreuse;
 }
 .img {
-    background-image: url(../vidfoto-html/images/red-panda-1200px.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    background-image: url(../vidfoto-html/images/mozilla-dinosaur-120px.jpg);
+    background-size: auto;
+    background-repeat: repeat;
 }
 /*img {
     width: 800;
