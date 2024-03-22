@@ -46,9 +46,6 @@ h2 {
     background-size: contain;
     border: 2px solid red;
 }
-ul {
-    color: green;
-}
 .my-class-1 a {
     color: inherit;
 }
@@ -59,4 +56,11 @@ ul {
 
 .my-class-3 a {
     color: unset;
+}
+.button.widget[id^="widget"] {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: lightblue;
+    border-radius: 8px;
 }
