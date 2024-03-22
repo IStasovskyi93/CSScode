@@ -40,3 +40,9 @@ h2 {
     width: 800;
     height: 400px;
 }*/
+.panda {
+    background-image: url(../vidfoto-html/images/red-panda-1200px.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid red;
+}
