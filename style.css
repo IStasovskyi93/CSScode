@@ -25,6 +25,22 @@ h2 {
     border: 2px solid grey;
 
 }
+/* trening with list */
+.example ul {
+    list-style-type: square;
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+.example ol {
+    list-style-type: none;
+}
+.example ol li{
+    padding-left: 2rem;
+    background-image: url(../vidfoto-html/images/firefox_logo-120px.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1.6em;
+}
 .url:any-link {
     color: chartreuse;
 }
@@ -63,4 +79,10 @@ h2 {
     font-weight: 700;
     background-color: lightblue;
     border-radius: 8px;
+}
+.button.widget[id^="widget"].transparent {
+    background-color: transparent;
+}
+.button:hover {
+    background-color: greenyellow;
 }
