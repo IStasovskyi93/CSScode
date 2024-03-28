@@ -14,11 +14,31 @@ ul {
 ul span {
     color: green;
 }
-ul a {
-    color: blue;
+/* links decoration */
+a {
+    font-size: 1.3em;
+    text-decoration: none;
 }
-ul a:hover {
-    color: green;
+a:link {
+    color: rgb(34, 69, 17);
+}
+a:visited {
+    color: blueviolet;
+}
+a:focus {
+    border: 1px solid;
+}
+a:hover {
+    background-color: bisque;
+    border-bottom-style: dotted;
+    border-color: rgb(43, 202, 37);
+}
+a:active {
+}
+a[href*="http"] {
+    background: url(icons8-external-link-26.png) no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
 }
 h2 {
     color: gray;
@@ -41,9 +61,9 @@ h2 {
     background-repeat: no-repeat;
     background-size: 1.6em;
 }
-.url:any-link {
+/* .url:any-link {
     color: chartreuse;
-}
+} */
 .img {
     width: 800px;
     height: 400px;
@@ -62,7 +82,7 @@ h2 {
     background-size: contain;
     border: 2px solid red;
 }
-.my-class-1 a {
+/* .my-class-1 a {
     color: inherit;
 }
 
@@ -72,7 +92,7 @@ h2 {
 
 .my-class-3 a {
     color: unset;
-}
+} */
 .button.widget[id^="widget"] {
     padding: 10px;
     font-size: 16px;
